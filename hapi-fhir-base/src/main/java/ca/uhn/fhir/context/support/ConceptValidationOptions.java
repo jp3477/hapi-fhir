@@ -48,7 +48,8 @@ public class ConceptValidationOptions {
 	}
 
 	public ConceptValidationOptions setValidateDisplay(boolean theValidateDisplay) {
-		myValidateDisplay = theValidateDisplay;
+		// myValidateDisplay = theValidateDisplay;
+		myValidateDisplay = false;
 		return this;
 	}
 }
